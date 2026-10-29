@@ -1,0 +1,7 @@
+:root{--ink:#1d1530;--onink:#f7f3fb;--paper:#f7f3fb;--card:#ffffff;--soft:#efe6fb;--muted:#5d5470;--line:#e3d9f0;--accent:#c9a0ff;--onaccent:#1d1530;--accentdark:#6b3fb0;--focus:#6b3fb0;
+--display:"Playfair Display",Georgia,serif;--body:"Nunito Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--r:14px;--btnr:999px}
+.hero{background:radial-gradient(800px 400px at 85% 10%,#c9a0ff55,transparent 60%),radial-gradient(600px 400px at 10% 100%,#5fd0c955,transparent 60%),linear-gradient(150deg,#140e24,#2a1d47 60%,#1d1530)}
+.hero h1 em{background:linear-gradient(90deg,#c9a0ff,#7fe3d8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card{border:0;box-shadow:0 2px 10px #1d153014}.card .ph{background:#f3eefa}
+.collage img{border-radius:50% 50% 14px 14px}.scent{border-top:0;border-left:6px solid var(--c)}
+.bar{background:linear-gradient(90deg,#c9a0ff,#7fe3d8)}

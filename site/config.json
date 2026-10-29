@@ -1,0 +1,17 @@
+{
+  "brand": "Namaste Crystal Jewelry",
+  "short_name": "Crystal Jewelry",
+  "site_url": "https://namastecrystaljewelry.com",
+  "storefront": "Namaste Crystal Jewelry",
+  "REVIEW_URL": "",
+  "GOOGLE_SITE_VERIFICATION": "",
+  "store_type": "JewelryStore",
+  "price_range": "$$",
+  "icon": "gem",
+  "layout": "l-flag",
+  "kinds": ["pendant", "necklace", "chain", "ring", "beaded", "bracelet", "earrings", "mala", "beads", "anklet", "charm"],
+  "best_collections": ["all-pendants", "rings-1", "bracelets", "all-necklaces", "all-earrings"],
+  "siblings": [["Namaste Jewelry Shop: sterling silver & fine pieces", "https://namastejewelryshop.com/"], ["Namaste Jewelry Store: gifts under $30", "https://namastejewelrystore.com/"], ["Namaste Beads: bracelets & malas", "https://namastebeads.com/"], ["Namaste Incense", "https://namasteincense.com/"], ["Manhattan Crystal Market", "https://manhattancrystalmarket.com/"]],
+  "theme": {"ink": "#1d1530", "paper": "#f7f3fb", "accent": "#c9a0ff",
+            "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Nunito+Sans:wght@400;600;700&display=swap"}
+}
