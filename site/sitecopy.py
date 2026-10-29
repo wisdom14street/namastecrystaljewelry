@@ -165,7 +165,7 @@ def brand_faq(S, k, st):
     name = S.BRAND_NAME[k]
     q = [(f'Where can I see {name} jewelry in New York?', f'At Namaste Crystal Jewelry, {S.STORE_ADDR}, a short walk from Union Square. {st["n"]} pieces are listed today.'),
          (f'What do {name} pieces cost?', (f'From {S.money(st["min"])} to {S.money(st["max"])}.' if st['max'] > st['min'] else f'{S.money(st["min"])}.') + ' Prices refresh daily.')]
-    if st['pickup']: q.append((f'Can I reserve {name} jewelry for pickup?', 'Yes: tap Buy now, choose Pickup at checkout and collect it on 14th Street.' + (f' Orders are {S.READY.lower()}.' if S.READY else '')))
+    if st['pickup']: q.append((f'Can I reserve {name} jewelry for pickup?', 'Yes: add it to your cart, choose Pickup at checkout and collect it on 14th Street.' + (f' Orders are {S.READY.lower()}.' if S.READY else '')))
     return q
 def BRAND_H1(S, k): return f'{S.BRAND_NAME[k]} jewelry'
 def BRAND_TITLE(S, k, st): return f'{S.BRAND_NAME[k]} Jewelry in NYC near Union Square | Namaste Crystal Jewelry'
@@ -220,7 +220,7 @@ FAQ_H1 = 'Crystal jewelry questions'
 def FAQ(S):
     return [('Where is the shop?', f'At {S.STORE_ADDR}, on 14th Street just west of Fifth Avenue, about a 4-minute walk from the 14 St&ndash;Union Square station.'),
             ('When are you open?', 'Monday to Thursday 11 AM to 8 PM, Friday and Saturday 11 AM to 9 PM, Sunday 11 AM to 7 PM. Holiday hours can change, so call before a special trip.'),
-            ('Can I reserve a piece and pick it up?', 'Yes. Tap Buy now, choose Pickup at checkout and collect it at 2 West 14th Street.' + (f' Orders are {S.READY.lower()}.' if S.READY else '')),
+            ('Can I reserve a piece and pick it up?', 'Yes. Add it to your cart, choose Pickup at checkout and collect it at 2 West 14th Street.' + (f' Orders are {S.READY.lower()}.' if S.READY else '')),
             ('Do you ship?', 'Yes, from New York City. Shipping options and costs show at checkout before you pay. Checkout runs on Shopify through namastebookshop.com.'),
             ('Are the stones real?', 'Each listing names the stone as our suppliers describe it. A few popular materials are man-made by nature, such as goldstone, opalite and cubic zirconia, and aura quartz is quartz with a metallic coating. Ask us in the shop if you want a closer look.'),
             ('How do I find my ring size?', 'Sterling rings are listed one size per listing. Our <a href="/guide/ring-size-guide/">ring size guide</a> explains how to measure at home, or come in and try a few on.'),
